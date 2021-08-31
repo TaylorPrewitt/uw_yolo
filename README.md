@@ -1,7 +1,7 @@
 
 # UW-GreenAI: Object Detection 
 
-Using YOLOv4 to investigate the impact that batch inference has on GPU energy consumption.    
+Goal: Use YOLOv4 to investigate the impact that batch inference has on GPU energy consumption.    
 
 This repo contains the work from:
 <br>
