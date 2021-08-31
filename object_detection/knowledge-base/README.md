@@ -1,4 +1,4 @@
-# knowledge-base
+# References
 
 ## Azure Machine Learning examples - deploy-triton-ensemble-managed-online-endpoint.sh
 
