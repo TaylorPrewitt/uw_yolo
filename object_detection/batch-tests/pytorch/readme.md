@@ -1,8 +1,10 @@
 Batch size 1: 40ms/image
+<br>
 Batch size 8: 25ms/image
+<br>
 Batch Size 15: 20ms/image
 
-Memory error occurs with T4 and batch size > 16.
+Memory capacity error occurs with T4 and batch size > 16.
 
 `demo-1.json` contains the formatted bounding box results from the model for all 50000 images.
 
