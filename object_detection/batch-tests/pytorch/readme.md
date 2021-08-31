@@ -2,7 +2,6 @@ Batch size 1: 40ms/image
 Batch size 8: 25ms/image
 Batch Size 15: 20ms/image
 
-the results are a lot more believeable now.
 Memory error occurs with T4 and batch size > 16.
 
 `demo-1.json` contains the formatted bounding box results from the model for all 50000 images.
@@ -11,7 +10,7 @@ Memory error occurs with T4 and batch size > 16.
 
 The results are same for each batch size. Which is expected since the model output for each image is same irrespective of the batch size
 
-##Batch Size: 15 
+## Batch Size: 15 
 ```
  Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.392
  Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.571
@@ -27,7 +26,7 @@ The results are same for each batch size. Which is expected since the model outp
  Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.637
  ```
  
-##Batch Size: 8
+## Batch Size: 8
 ```
  Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.392
  Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.571
@@ -43,7 +42,7 @@ The results are same for each batch size. Which is expected since the model outp
  Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.637
  ```
  
-##Batch Size: 1
+## Batch Size: 1
 
 ```
  Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.392
